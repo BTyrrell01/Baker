@@ -67,7 +67,7 @@
 			(color 0 132 0 0.3294117647)
 		)
 		(uuid "66e2f96f-c2f9-49fe-949d-95863aff4e55")
-		(property "Sheetname" "ESP32"
+		(property "Sheetname" "STM32"
 			(at 134.62 68.4526 0)
 			(show_name no)
 			(do_not_autoplace no)

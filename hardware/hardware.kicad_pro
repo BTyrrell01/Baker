@@ -653,7 +653,7 @@
         "uuid": "f542ab1d-716b-43d0-8fed-082c8d81de3f"
       }
     ],
-    "used_designators": "IC1-3,J1,R1-3,L1-3,#PWR1-45,C1-30,AE1-2,TP1-43,Y1,U1-2",
+    "used_designators": "L1,C1-10,R4-5,#PWR1-8,#PWR46-56,U1",
     "variants": []
   },
   "sheets": [
@@ -663,7 +663,7 @@
     ],
     [
       "66e2f96f-c2f9-49fe-949d-95863aff4e55",
-      "ESP32"
+      "STM32"
     ],
     [
       "b52766f3-1fa1-442f-884d-496f9ef14a5d",
