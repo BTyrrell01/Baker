@@ -821,6 +821,380 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "MAX86141 requires 1p8 power supply for both core and IO\nThis would require a level translator to communicate with the STM32\n\nExplore\n* AFE4404\n* AFE4490\n* OSRAM AS7058\n\nWhat is my dynamic range requirement?\nWhat are my wavelengths?\nWhat does my optical stack look like?\n\nCan't choose an AFE until the above is settled ^^"
+		(exclude_from_sim no)
+		(at 24.892 36.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a672eeb-3644-4ae0-b310-95e8471a90bc")
+	)
+	(junction
+		(at 118.11 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2807fc14-baa0-4303-9f8a-5a74156be937")
+	)
+	(junction
+		(at 118.11 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a30c0ed3-ac1e-476e-adbb-d8abe9cc7f14")
+	)
+	(junction
+		(at 118.11 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7cb74c1-6cbd-4e96-b65f-88bd5af05683")
+	)
+	(junction
+		(at 118.11 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef28a296-44e6-4f30-a819-c80e55ea862f")
+	)
+	(wire
+		(pts
+			(xy 46.99 95.25) (xy 77.47 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c2d41b-347f-4e3b-8631-60ed8eadc2f9")
+	)
+	(wire
+		(pts
+			(xy 115.57 87.63) (xy 118.11 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1140a627-b9cc-4a83-91bc-db002a6292b1")
+	)
+	(wire
+		(pts
+			(xy 118.11 90.17) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc9da34-2e59-4d70-8f20-911f7c6d2064")
+	)
+	(wire
+		(pts
+			(xy 115.57 90.17) (xy 118.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a32240e-a8be-4e0c-a987-3fe8d8673145")
+	)
+	(wire
+		(pts
+			(xy 118.11 95.25) (xy 118.11 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493baf6c-df37-4d2b-b91b-bfdb56b5f115")
+	)
+	(wire
+		(pts
+			(xy 115.57 95.25) (xy 118.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541d56a4-c78f-49c5-847f-b44dd98deae5")
+	)
+	(wire
+		(pts
+			(xy 115.57 92.71) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8291a447-4471-4349-8e11-c4b403a8dd9d")
+	)
+	(wire
+		(pts
+			(xy 118.11 102.87) (xy 118.11 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a486237-cb73-4b0a-889a-ba679ea6f611")
+	)
+	(wire
+		(pts
+			(xy 46.99 87.63) (xy 77.47 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9fef81-2782-4ed4-ab6d-bbf14a9859d3")
+	)
+	(wire
+		(pts
+			(xy 118.11 92.71) (xy 118.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a709f9d1-fbf0-4ea8-ba36-2f94d6d61d2a")
+	)
+	(wire
+		(pts
+			(xy 118.11 87.63) (xy 118.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9a07be-97ff-405c-a7f0-f0efdc5774d2")
+	)
+	(wire
+		(pts
+			(xy 46.99 92.71) (xy 77.47 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0111e5-a1e5-49cb-83b8-23bcd25e8bc9")
+	)
+	(wire
+		(pts
+			(xy 46.99 90.17) (xy 77.47 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4401e8-0482-4204-8d74-4d258003a5e3")
+	)
+	(wire
+		(pts
+			(xy 115.57 102.87) (xy 118.11 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc79e5e0-6e3b-487f-a9fb-7695690f6a37")
+	)
+	(label "PPG_CS"
+		(at 50.8 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b1662cb-a798-4572-b2d6-fe94a2f3b8d2")
+	)
+	(label "PPG_SCK"
+		(at 50.8 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6af01fba-830f-473a-8335-a88ba798e5ae")
+	)
+	(label "PPG_MOSI"
+		(at 50.8 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83699d77-deff-4651-b2f2-2c9cd0aef0a8")
+	)
+	(label "PPG_MISO"
+		(at 50.8 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0241be3-9b50-45de-9539-79e8b120db8c")
+	)
+	(hierarchical_label "PPG_MISO"
+		(shape input)
+		(at 46.99 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a7ca525-ac4c-445e-ba61-a94f7d458764")
+	)
+	(hierarchical_label "PPG_MOSI"
+		(shape input)
+		(at 46.99 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2dfb4a23-5887-4d2a-afac-81596118dcf8")
+	)
+	(hierarchical_label "PPG_SCK"
+		(shape input)
+		(at 46.99 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3527909f-8690-4497-bb17-d0354136f0f2")
+	)
+	(hierarchical_label "PPG_CS"
+		(shape input)
+		(at 46.99 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3b0f0f4-2a5d-4af8-9e5c-aa24dba95f99")
 	)
 	(symbol
 		(lib_id "SFH_7074:SFH_7074")
@@ -1179,6 +1553,84 @@
 			(project "hardware"
 				(path "/a19f636f-b28d-4c43-b96a-b02383edd3eb/66e2f96f-c2f9-49fe-949d-95863aff4e55/5e0a99e1-db94-40ee-a932-4a78e78b7342"
 					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efa1b3c6-c63c-4c39-a7fe-9cca18616453")
+		(property "Reference" "#PWR020"
+			(at 118.11 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5bb2241-9106-4625-9eee-e20c8d54f8ed")
+		)
+		(instances
+			(project "hardware"
+				(path "/a19f636f-b28d-4c43-b96a-b02383edd3eb/66e2f96f-c2f9-49fe-949d-95863aff4e55/5e0a99e1-db94-40ee-a932-4a78e78b7342"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

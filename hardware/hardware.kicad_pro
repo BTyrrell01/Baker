@@ -653,7 +653,7 @@
         "uuid": "f542ab1d-716b-43d0-8fed-082c8d81de3f"
       }
     ],
-    "used_designators": "IC2-3,AE1,J1,NT1-2,L1-2,Y1,#PWR1-19,#PWR46-60,U1-2,C1-17,JP1-3,R1-2,R4-8,TP1-14",
+    "used_designators": "IC2-3,AE1,J1,NT1-2,L1-2,Y1,#PWR1-20,#PWR46-60,U1-2,C1-18,JP1-3,R1-2,R4-8,TP1-15",
     "variants": []
   },
   "sheets": [
@@ -684,6 +684,10 @@
     [
       "1bcdaece-dced-4ca9-bf09-f705a839e6b8",
       "STM32"
+    ],
+    [
+      "37b9e165-a5e0-4c19-be42-29176f2e8ed8",
+      "User Interface"
     ]
   ],
   "text_variables": {},
