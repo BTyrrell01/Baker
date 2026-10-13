@@ -653,7 +653,7 @@
         "uuid": "f542ab1d-716b-43d0-8fed-082c8d81de3f"
       }
     ],
-    "used_designators": "J1,NT1-2,L1,#PWR1-12,#PWR46-60,C1-13,JP1-3,R1-2,R4-8,TP1-2,Y1,U1",
+    "used_designators": "J1,NT1-2,L1,#PWR1-12,#PWR46-60,C1-13,JP1-3,R1-2,R4-8,TP1-2,Y1,U1-2",
     "variants": []
   },
   "sheets": [
@@ -676,10 +676,6 @@
     [
       "5faec1c3-df4d-496d-8abe-1238008de314",
       "Pulse Oximetry"
-    ],
-    [
-      "f1253868-2aed-4722-868b-c1daae02dbb4",
-      "GPS"
     ],
     [
       "1bcdaece-dced-4ca9-bf09-f705a839e6b8",
