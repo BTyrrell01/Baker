@@ -4018,6 +4018,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 67.31) (xy 139.7 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab15c96-c514-4ab4-a318-df0f63f58929")
+	)
+	(wire
+		(pts
 			(xy 248.92 40.64) (xy 248.92 45.72)
 		)
 		(stroke
@@ -4598,16 +4608,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 67.31) (xy 73.66 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bddff72a-3e2f-423c-83c5-18207b328900")
-	)
-	(wire
-		(pts
 			(xy 243.84 137.16) (xy 259.08 137.16)
 		)
 		(stroke
@@ -5007,7 +5007,7 @@
 		(uuid "05827a2b-7e5d-4964-8d6d-5efe24b683d6")
 	)
 	(label "nRST"
-		(at 96.52 67.31 0)
+		(at 92.71 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5186,7 +5186,7 @@
 		)
 		(uuid "5f39ac76-6427-43fe-a30c-87b1bc82e3d3")
 	)
-	(label "SPI1_CS"
+	(label "SPI1_CS1"
 		(at 193.04 97.79 0)
 		(effects
 			(font
@@ -5804,7 +5804,7 @@
 		)
 		(uuid "93605213-1fc5-4fdf-bb05-b2eaf9e21e68")
 	)
-	(hierarchical_label "SPI1_CS"
+	(hierarchical_label "SPI1_CS1"
 		(shape input)
 		(at 207.01 97.79 0)
 		(effects
