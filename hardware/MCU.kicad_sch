@@ -1022,7 +1022,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 194 194 0 0.5019607843)
 		)
 		(uuid "37b9e165-a5e0-4c19-be42-29176f2e8ed8")
 		(property "Sheetname" "User Interface"
@@ -1045,6 +1045,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DISPLAY_BACKLIGHT_EN" input
+			(at 66.675 46.99 0)
+			(uuid "30867a89-ff6a-4ad3-9a64-36da2dada835")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "Display_COMIN" input
+			(at 66.675 44.45 0)
+			(uuid "5b7de8cb-aa66-4ca8-8820-511eba128519")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "Display_CS" input
+			(at 66.675 34.29 0)
+			(uuid "fed8cd7f-54c1-4fcb-b68a-72703fd3e38e")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "Display_MOSI" input
+			(at 66.675 29.21 0)
+			(uuid "66b8575f-ba41-46ed-bc34-f12663c8f699")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "Display_SCK" input
+			(at 66.675 31.75 0)
+			(uuid "6cb6a154-7d1d-48d9-baf1-303ddd81c6cd")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
 			)
 		)
 		(instances
