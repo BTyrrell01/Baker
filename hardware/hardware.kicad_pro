@@ -653,7 +653,7 @@
         "uuid": "f542ab1d-716b-43d0-8fed-082c8d81de3f"
       }
     ],
-    "used_designators": "Q1,IC2-3,AE1,J1-3,NT1-2,L1-2,Y1,#PWR1-26,#PWR42-61,U1-2,C1-18,C31-33,JP1-3,R1-10,TP1-15",
+    "used_designators": "Q1,IC2-4,AE1,J1-3,NT1-2,L1-2,Y1-2,#PWR1-26,#PWR42-68,U1-2,C1-18,C31-36,JP1-3,R1-12,TP1-22",
     "variants": []
   },
   "sheets": [
@@ -688,6 +688,14 @@
     [
       "37b9e165-a5e0-4c19-be42-29176f2e8ed8",
       "User Interface"
+    ],
+    [
+      "222f7d37-2dc4-49f2-bc05-77bddb2af82b",
+      "Environment Perception"
+    ],
+    [
+      "4d3c8e9f-f25e-4ba6-bfba-0c2f3f007f76",
+      "Bluetooth Module"
     ]
   ],
   "text_variables": {},

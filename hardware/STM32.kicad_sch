@@ -6620,8 +6620,7 @@
 			)
 		)
 		(property "Value" "ECS-.327-6-12R-TR"
-			(at 114.3 162.56 0)
-			(hide yes)
+			(at 114.3 171.958 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

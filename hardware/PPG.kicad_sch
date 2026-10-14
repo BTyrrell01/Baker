@@ -937,7 +937,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "MAX86141 requires 1p8 power supply for both core and IO\nThis would require a level translator to communicate with the STM32\n\nExplore\n* AFE4404\n* AFE4490\n* OSRAM AS7058\n\nWhat is my dynamic range requirement?\nWhat are my wavelengths?\nWhat does my optical stack look like?\n\nCan't choose an AFE until the above is settled ^^"
+	(text "MAX86141 requires 1p8 power supply for both core and IO\nThis would require a level translator to communicate with the STM32\n\nExplore\n* AFE4404\n* AFE4490\n* OSRAM AS7058\n\nWhat is my dynamic range requirement?\nWhat are my wavelengths?\nWhat does my optical stack look like?\nDo we care if we use I2C or SPI?\n\nCan't choose an AFE until the above is settled ^^"
 		(exclude_from_sim no)
 		(at 24.892 36.576 0)
 		(effects

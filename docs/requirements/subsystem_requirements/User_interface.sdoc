@@ -58,4 +58,14 @@ RELATIONS:
 - TYPE: Parent
   VALUE: MOE-001-015
 
+[REQUIREMENT]
+UID: REQ-24
+TITLE: Display refresh rate
+STATEMENT: >>>
+Display shall refresh at 60FPS.
+<<<
+RATIONALE: >>>
+Animations must look smooth and crisp.
+<<<
+
 [[/SECTION]]
