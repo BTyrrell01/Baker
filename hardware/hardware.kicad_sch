@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 134.62 69.215)
+		(at 132.715 71.12)
 		(size 40.005 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "66e2f96f-c2f9-49fe-949d-95863aff4e55")
 		(property "Sheetname" "Compute"
-			(at 134.62 68.4526 0)
+			(at 132.715 70.3576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 134.62 106.6804 0)
+			(at 132.715 108.5854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
