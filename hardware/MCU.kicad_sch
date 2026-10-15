@@ -1390,7 +1390,7 @@
 	)
 	(sheet
 		(at 33.655 99.06)
-		(size 34.925 25.4)
+		(size 34.925 26.035)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1416,7 +1416,7 @@
 			)
 		)
 		(property "Sheetfile" "Environment_perception.kicad_sch"
-			(at 33.655 125.0446 0)
+			(at 33.655 125.6796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1649,7 +1649,7 @@
 			)
 		)
 		(pin "DISPLAY_COMIN" input
-			(at 67.31 43.18 0)
+			(at 67.31 44.45 0)
 			(uuid "9ec8ac87-44d5-43dc-bb92-1cda25d9dc13")
 			(effects
 				(font
@@ -1689,7 +1689,7 @@
 			)
 		)
 		(pin "DISPLAY_BACKLIGHT_EN" input
-			(at 67.31 45.72 0)
+			(at 67.31 46.99 0)
 			(uuid "7ec1e3a7-23e4-4377-8257-28104f74aa22")
 			(effects
 				(font

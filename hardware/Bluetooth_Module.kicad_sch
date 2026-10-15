@@ -1901,6 +1901,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO:\n3p3 compatible only"
+		(exclude_from_sim no)
+		(at 178.308 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2089b928-ca76-4ad6-ba4d-af23b52efcae")
+	)
 	(text "Open drain output on the STM32"
 		(exclude_from_sim no)
 		(at 101.854 73.66 0)

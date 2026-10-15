@@ -3343,6 +3343,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO:\nVCC must be 3p3, VCCQ can be 1p8"
+		(exclude_from_sim no)
+		(at 178.562 169.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50f68bf6-c62b-4e0e-962f-5b2545e5b3c3")
+	)
 	(text "Can tie VCCQ to 1.8 for slightly reduced power consumption\nImportant note is to ensure that the STM32 IOs are also set at 1p8V"
 		(exclude_from_sim no)
 		(at 157.734 18.542 0)

@@ -1319,9 +1319,9 @@
 		)
 		(uuid "8235ced0-b9af-4610-8d5d-64c967b9fd4d")
 	)
-	(text "TODO:\nShould I put a load switch in between the power supply and this device?\n- Footprint of a lsw is very small, and would require 1 GPIO from STM to actuate\nSoftware standby mode is 46uA, which is pretty large\nHow is GPS data turned into a GPX file?"
+	(text "TODO:\nShould I put a load switch in between the power supply and this device?\n- Footprint of a lsw is very small, and would require 1 GPIO from STM to actuate\nSoftware standby mode is 46uA, which is pretty large\nHow is GPS data turned into a GPX file?\nCompatible with 1p8V"
 		(exclude_from_sim no)
-		(at 178.308 171.958 0)
+		(at 178.308 173.736 0)
 		(effects
 			(font
 				(size 1.27 1.27)
