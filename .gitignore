@@ -10,4 +10,4 @@ docs/requirements/trade_studies/output/
 *.kicad_sch.lck
 *.kicad_prl
 
-
+*.DS_Store

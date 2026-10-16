@@ -19,7 +19,7 @@ UID: REQ-14
 STATUS: Active
 TITLE: PPG SNR
 STATEMENT: >>>
-From our simulations, the optical module/AFE must produce PPG signals that are at least 0dB SNR.
+From our simulations, the optical module/AFE must produce PPG signals that are at least 20dB SNR for the HRM and SPO2 software algorithms
 <<<
 RATIONALE: >>>
 For the algorithms to work well, there must be a good signal.
@@ -54,5 +54,28 @@ For the SPO2 algorithm, the device must use more than 1 wavelength of light.
 RELATIONS:
 - TYPE: Parent
   VALUE: MOE-001-011
+
+[REQUIREMENT]
+UID: REQ-25
+STATUS: Active
+TITLE: AFE SNR
+STATEMENT: >>>
+The AFE shall have an SNR (PD current/output voltage) of greater than
+<<<
+RATIONALE: >>>
+PI = AC/DC -> AC_min = I_min * PI
+SNR_DC = DC / noise. This is how small the noise is compared to the steady current.
+SNR_Pulse = AC / noise. This is how small the noise is compared to the heartbeat = 20dB from REQ-14
+
+Sub into SNR_Pulse
+SNR_Pulse = (DC * PI) / noise = SNR_DC * PI
+
+SNR_DC = (SNR_Pulse / PI) = (1/PI) * SNR_Pulse
+Ratios add in dB land
+
+SNR_DC (dB) = 20*log(1/PI) + SNR_Pulse (20 dB in this case)
+
+Assuming PI 0.1%, SNR_DC = 80dB
+<<<
 
 [[/SECTION]]

@@ -5,7 +5,7 @@
 	(uuid "a946122d-e904-45db-9c41-9643b843108f")
 	(paper "A4")
 	(lib_symbols)
-	(text "TODO:\nCalculate bus utilizations to determine which devices go on which busses\nPower tree and consumption numbers for the entire system"
+	(text "TODO:\nCalculate bus utilizations to determine which devices go on which busses\nPower tree and consumption numbers for the entire system\n\nGoals for today:\n1. Update STM32 to STM32U5A5QJI3Q\n2. Choose PPG AFE and complete that schematic\n2a. VDDIO2 to 3p3 for display\n2b. What are the wavelengths that we care about\n2c. Trade study for LEDs/VCSELs\n3. Update barometer to Bosch part\n4. Power supplies"
 		(exclude_from_sim no)
 		(at 178.054 170.942 0)
 		(effects
