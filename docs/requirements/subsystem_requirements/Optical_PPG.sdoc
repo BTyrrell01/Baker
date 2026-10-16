@@ -58,9 +58,9 @@ RELATIONS:
 [REQUIREMENT]
 UID: REQ-25
 STATUS: Active
-TITLE: AFE SNR
+TITLE: AFE SNR at I_min
 STATEMENT: >>>
-The AFE shall have an SNR (PD current/output voltage) of greater than
+The AFE shall have an SNR (PD current/output voltage) at I_min of at least 80dB
 <<<
 RATIONALE: >>>
 PI = AC/DC -> AC_min = I_min * PI

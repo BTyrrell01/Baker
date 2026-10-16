@@ -4692,10 +4692,6 @@
 		)
 		(instances
 			(project "hardware"
-				(path "/a19f636f-b28d-4c43-b96a-b02383edd3eb/66e2f96f-c2f9-49fe-949d-95863aff4e55"
-					(reference "IC4")
-					(unit 1)
-				)
 				(path "/a19f636f-b28d-4c43-b96a-b02383edd3eb/66e2f96f-c2f9-49fe-949d-95863aff4e55/4d3c8e9f-f25e-4ba6-bfba-0c2f3f007f76"
 					(reference "IC4")
 					(unit 1)
