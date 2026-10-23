@@ -1107,7 +1107,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "STM32.kicad_sch"
+		(property "Sheetfile" "STM32_64LQFP.kicad_sch"
 			(at 115.57 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
