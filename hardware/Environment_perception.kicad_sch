@@ -1315,17 +1315,6 @@
 		)
 		(uuid "14c2fa24-2c2f-4363-bdd2-9b6ec1dca0ec")
 	)
-	(text "TODO:\nBoth Barometer and BMI270 are compatible with 1p8"
-		(exclude_from_sim no)
-		(at 178.054 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "21557fe1-9e08-468a-960f-d13e3201f344")
-	)
 	(text "I2C address set to 0x46 when SDO is 0V\n0x47 when SDO is tied to VDD"
 		(exclude_from_sim no)
 		(at 39.878 147.066 0)
