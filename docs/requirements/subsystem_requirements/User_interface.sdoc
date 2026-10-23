@@ -37,28 +37,6 @@ RELATIONS:
   VALUE: MOE-001-008
 
 [REQUIREMENT]
-UID: REQ-21
-STATUS: Active
-TITLE: Speaker volume
-STATEMENT: >>>
-The speaker should have a volume of at least 40dB 1m from the watch in 25C air at sea level.
-<<<
-RELATIONS:
-- TYPE: Parent
-  VALUE: MOE-001-018
-
-[REQUIREMENT]
-UID: REQ-22
-STATUS: Active
-TITLE: Speaker waterproof rating
-STATEMENT: >>>
-The speaker shall be waterproof and prevent damage to the device even if it is wet. It shall have an IPX8 rating.
-<<<
-RELATIONS:
-- TYPE: Parent
-  VALUE: MOE-001-015
-
-[REQUIREMENT]
 UID: REQ-24
 TITLE: Display refresh rate
 STATEMENT: >>>

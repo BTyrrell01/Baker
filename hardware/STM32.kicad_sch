@@ -5108,7 +5108,7 @@
 		(uuid "2f01e785-e8c2-4435-a163-e56edd574262")
 	)
 	(junction
-		(at 292.1 10.16)
+		(at 292.1 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "354f2d73-9a8b-47a2-9910-cd75407a8270")
@@ -5126,7 +5126,7 @@
 		(uuid "44795f0d-c41c-46c1-b33c-89278735219b")
 	)
 	(junction
-		(at 307.34 10.16)
+		(at 307.34 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4637fc71-cf5f-4b74-8cad-add67e3b85ae")
@@ -5156,7 +5156,7 @@
 		(uuid "5c0d1a0a-d67d-41ba-bba4-e8e36bbc675e")
 	)
 	(junction
-		(at 304.8 10.16)
+		(at 304.8 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5cbe5e6d-4130-4cc1-8301-0239f4f6cd22")
@@ -5174,7 +5174,7 @@
 		(uuid "6993ba27-e6b9-478b-bab9-ba7f8c4a345e")
 	)
 	(junction
-		(at 299.72 10.16)
+		(at 299.72 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6efcf3ac-687f-48cd-84a9-fdfd5c8d040d")
@@ -5186,7 +5186,7 @@
 		(uuid "7505f663-684e-41a2-a641-128faea40fdb")
 	)
 	(junction
-		(at 294.64 10.16)
+		(at 294.64 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8328e179-c219-47f7-b83a-98e8f6f50623")
@@ -5234,7 +5234,7 @@
 		(uuid "ef0ee3a7-4ef2-477c-9b26-ea8118f521a6")
 	)
 	(junction
-		(at 289.56 10.16)
+		(at 289.56 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2227a99-8e9f-4bda-a0e9-6796e600489f")
@@ -5453,7 +5453,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 10.16) (xy 289.56 10.16)
+			(xy 292.1 38.1) (xy 289.56 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5563,7 +5563,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 15.24) (xy 292.1 10.16)
+			(xy 292.1 43.18) (xy 292.1 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5713,7 +5713,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 10.16) (xy 289.56 15.24)
+			(xy 289.56 38.1) (xy 289.56 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5763,7 +5763,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 10.16) (xy 299.72 10.16)
+			(xy 302.26 38.1) (xy 299.72 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5833,7 +5833,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 15.24) (xy 302.26 10.16)
+			(xy 302.26 43.18) (xy 302.26 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5873,7 +5873,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 -2.54) (xy 299.72 10.16)
+			(xy 299.72 25.4) (xy 299.72 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5883,7 +5883,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 15.24) (xy 294.64 10.16)
+			(xy 294.64 43.18) (xy 294.64 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5903,7 +5903,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 -2.54) (xy 289.56 10.16)
+			(xy 289.56 25.4) (xy 289.56 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5913,7 +5913,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 15.24) (xy 309.88 10.16)
+			(xy 309.88 43.18) (xy 309.88 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5923,7 +5923,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 10.16) (xy 292.1 10.16)
+			(xy 294.64 38.1) (xy 292.1 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5983,7 +5983,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 10.16) (xy 307.34 10.16)
+			(xy 309.88 38.1) (xy 307.34 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6003,7 +6003,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 10.16) (xy 307.34 10.16)
+			(xy 304.8 38.1) (xy 307.34 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6223,7 +6223,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 10.16) (xy 294.64 10.16)
+			(xy 297.18 38.1) (xy 294.64 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6283,7 +6283,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 10.16) (xy 299.72 15.24)
+			(xy 299.72 38.1) (xy 299.72 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6313,7 +6313,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 15.24) (xy 297.18 10.16)
+			(xy 297.18 43.18) (xy 297.18 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6423,7 +6423,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 15.24) (xy 304.8 10.16)
+			(xy 304.8 43.18) (xy 304.8 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6553,7 +6553,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 -2.54) (xy 304.8 10.16)
+			(xy 304.8 25.4) (xy 304.8 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6653,7 +6653,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 15.24) (xy 307.34 10.16)
+			(xy 307.34 43.18) (xy 307.34 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6972,7 +6972,7 @@
 		(uuid "81450732-2bdb-4ef5-8b65-bfa4933c723e")
 	)
 	(label "VDD11"
-		(at 299.72 5.08 90)
+		(at 299.72 33.02 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8300,7 +8300,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 289.56 -2.54 0)
+		(at 289.56 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8311,7 +8311,7 @@
 		(fields_autoplaced yes)
 		(uuid "1577c2bd-3974-4c51-8d60-1b9af506f002")
 		(property "Reference" "#PWR06"
-			(at 289.56 1.27 0)
+			(at 289.56 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8322,7 +8322,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 289.56 -7.62 0)
+			(at 289.56 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8332,7 +8332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 -2.54 0)
+			(at 289.56 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8343,7 +8343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 -2.54 0)
+			(at 289.56 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8354,7 +8354,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 289.56 -2.54 0)
+			(at 289.56 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10039,7 +10039,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 304.8 -2.54 0)
+		(at 304.8 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10050,7 +10050,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ae0c682-a105-4d4e-8355-964617d3c600")
 		(property "Reference" "#PWR08"
-			(at 304.8 1.27 0)
+			(at 304.8 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10061,7 +10061,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 304.8 -7.62 0)
+			(at 304.8 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10071,7 +10071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 304.8 -2.54 0)
+			(at 304.8 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10082,7 +10082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 304.8 -2.54 0)
+			(at 304.8 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10093,7 +10093,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 304.8 -2.54 0)
+			(at 304.8 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
