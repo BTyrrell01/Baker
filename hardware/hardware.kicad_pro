@@ -648,7 +648,7 @@
         "uuid": "a19f636f-b28d-4c43-b96a-b02383edd3eb"
       }
     ],
-    "used_designators": "IC2,R17-18,C47-48,#PWR5-12,#PWR94-103,Q3,TP5,TP24",
+    "used_designators": "LS1,M1,IC2,R17-19,D1,C47-49,#PWR5-12,#PWR94-109,Q3-4,U7,TP5,TP24-35",
     "variants": []
   },
   "sheets": [
@@ -663,6 +663,10 @@
     [
       "b52766f3-1fa1-442f-884d-496f9ef14a5d",
       "eMMC"
+    ],
+    [
+      "9b1af95d-c31e-4b48-9884-ed4115b4cd3e",
+      "Haptics"
     ],
     [
       "5e0a99e1-db94-40ee-a932-4a78e78b7342",
