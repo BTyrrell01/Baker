@@ -1397,6 +1397,10 @@
 		(uuid "7cb9a5ea-883f-4348-b2ec-86686f542509")
 	)
 	(no_connect
+		(at 119.38 102.87)
+		(uuid "88613c9e-cacc-472c-9913-8aa92f4516fc")
+	)
+	(no_connect
 		(at 190.5 95.25)
 		(uuid "999b3f25-8382-4d64-b0a3-32638d089b43")
 	)
@@ -1921,7 +1925,7 @@
 		(uuid "6bb2c4ec-e3ae-4702-9a97-dbfb61af8eae")
 	)
 	(label "BAROMETER_SDO"
-		(at 100.33 83.82 0)
+		(at 97.79 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1941,7 +1945,7 @@
 		(uuid "7d9141f4-8abd-4764-89d6-efc076d52904")
 	)
 	(label "BAROMETER_INT"
-		(at 100.33 100.33 0)
+		(at 97.79 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1970,8 +1974,8 @@
 		)
 		(uuid "a8a414ef-99ef-4606-b534-ddde9eac8f99")
 	)
-	(label "BAROMETER_L{slash}M"
-		(at 100.33 102.87 0)
+	(label "BAROMETER_L{slash}M_NC"
+		(at 97.79 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1991,7 +1995,7 @@
 		(uuid "c20e9778-6525-4392-80c2-707875532d4e")
 	)
 	(label "BAROMETER_SDA"
-		(at 100.33 81.28 0)
+		(at 97.79 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2001,7 +2005,7 @@
 		(uuid "d810e9f5-f6d1-4f72-a73e-c67cd024620b")
 	)
 	(label "BAROMETER_SCL"
-		(at 100.33 86.36 0)
+		(at 97.79 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2105,17 +2109,6 @@
 			(justify left)
 		)
 		(uuid "ab31b7b9-f7e0-42f9-a148-1e21348c4345")
-	)
-	(hierarchical_label "BAROMETER_L{slash}M"
-		(shape input)
-		(at 119.38 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ab406a8c-f73e-4811-bd31-8dd52bfb87e3")
 	)
 	(hierarchical_label "IMU_MISO"
 		(shape input)
