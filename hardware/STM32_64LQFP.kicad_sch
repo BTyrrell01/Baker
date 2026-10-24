@@ -3385,7 +3385,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Boot mode\n1 - Recovery bootloader 0x0BF9 0000\n0 - Flash 0x0800 0000\n\nSet to flash by default"
+	(text "Boot mode\n1 - Recovery bootloader 0x0BF9 0000\n0 - Flash 0x0800 0000\n\nSet to flash by default\n\nUSART1 is broken out in the event\nwe need to use the recovery bootloader"
 		(exclude_from_sim no)
 		(at 15.748 167.64 0)
 		(effects
