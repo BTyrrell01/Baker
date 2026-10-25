@@ -691,6 +691,10 @@
     [
       "4d3c8e9f-f25e-4ba6-bfba-0c2f3f007f76",
       "Bluetooth Module"
+    ],
+    [
+      "119d5b68-b95b-4b86-8725-4c9f1d39b386",
+      "Power"
     ]
   ],
   "text_variables": {},
