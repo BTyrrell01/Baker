@@ -47,7 +47,7 @@ RATIONALE: The watch should be tough, and the user should not worry about breaki
 [REQUIREMENT]
 UID: MOE-001-006
 STATEMENT: >>>
-The watch should charge from 0% SOC to 100% SOC in 60 minutes.
+The watch should charge from 0% SOC to 100% SOC in less than 120 minutes.
 <<<
 RATIONALE: >>>
 Some athletes have more than 1 activity in the day. The watch should be able to support this.
