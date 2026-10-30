@@ -2427,7 +2427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 121.92 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3292,7 +3292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX-M10S"
+		(property "Value" "MAX-M10M-20B"
 			(at 149.4633 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3314,7 +3314,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://content.u-blox.com/sites/default/files/MAX-M10S_DataSheet_UBX-20035208.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8632/MAX-M10M-20B.pdf"
 			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3325,7 +3325,7 @@
 				)
 			)
 		)
-		(property "Description" "GNSS Module MAX M10, VCC 1.65V to 3.6V"
+		(property "Description" "GNSS Module MAX M10, VCC 1.65V to 5.5V"
 			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3899,7 +3899,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 109.22 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)

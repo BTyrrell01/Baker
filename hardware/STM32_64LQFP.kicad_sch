@@ -7712,7 +7712,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 71.12 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7892,7 +7892,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7443844020022_valid_from_2026-10-27.pdf"
 			(at 118.11 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8853,7 +8853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 83.82 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9350,7 +9350,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 109.22 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9432,7 +9432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 77.47 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9514,7 +9514,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 96.52 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9843,7 +9843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 30.1752 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9854,7 +9854,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 29.21 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10711,7 +10711,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 58.42 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -8015,7 +8015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 71.12 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10351,7 +10351,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 71.12 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10433,7 +10433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 83.82 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10671,7 +10671,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 83.82 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10753,7 +10753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 44.45 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11076,7 +11076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 58.42 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11169,7 +11169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 28.9052 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11180,7 +11180,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 27.94 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11396,7 +11396,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 57.15 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11478,7 +11478,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 96.52 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11950,7 +11950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 31.75 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)

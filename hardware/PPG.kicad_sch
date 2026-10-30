@@ -1247,6 +1247,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "These signals go to FPC connector in power schematic block"
+		(exclude_from_sim no)
+		(at 161.798 155.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23d40341-0275-4f07-b59d-8a9648e1fd47")
+	)
 	(text "TODO:\nSelect LEDs"
 		(exclude_from_sim no)
 		(at 301.752 257.048 0)
@@ -3903,7 +3913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.2652 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3914,7 +3924,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)

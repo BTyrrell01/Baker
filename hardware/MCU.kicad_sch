@@ -25,7 +25,7 @@
 		)
 		(uuid "b984f8c3-85b4-4862-baa2-829799c7b35f")
 	)
-	(text "TODO:\nCalculate bus utilizations to determine which devices go on which busses\nPower tree and consumption numbers for the entire system - DONE\n\nGoals for today:\n2. Choose PPG AFE and complete that schematic - DONE\n2a. Add level translator for SPI1 - DONE\n3. Update barometer to Bosch part - DONE\n4. Power supplies and battery management\n5. Add test points to all blocks\n6. Fill in actual components\n7. Add piezo buzzer with driver - DONE\n8. Haptics driver and actuator - DONE\n9. Buttons - DONE"
+	(text "TODO:\nCalculate bus utilizations to determine which devices go on which busses\nPower tree and consumption numbers for the entire system - DONE\n\nGoals for today:\n2. Choose PPG AFE and complete that schematic - DONE\n2a. Add level translator for SPI1 - DONE\n3. Update barometer to Bosch part - DONE\n4. Power supplies and battery management - DONE\n5. Add test points to all blocks\n6. Fill in actual components\n7. Add piezo buzzer with driver - DONE\n8. Haptics driver and actuator - DONE\n9. Buttons - DONE"
 		(exclude_from_sim no)
 		(at 178.054 166.878 0)
 		(effects
