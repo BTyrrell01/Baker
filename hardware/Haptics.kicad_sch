@@ -4129,7 +4129,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HD-EMB1104-SM-2"
+		(property "Value" ""
 			(at 179.07 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
