@@ -11,3 +11,6 @@ docs/requirements/trade_studies/output/
 *.kicad_prl
 
 *.DS_Store
+
+# BOM export
+*hardware.csv
