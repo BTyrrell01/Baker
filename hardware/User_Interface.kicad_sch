@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "569456db-cf38-44a7-ae83-cefb58db5143")
 	(paper "A4")
+	(title_block
+		(title "User Interface")
+		(date "2026-11-02")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "CMT-8503-85B-SMT-TR:CMT-8503-85B-SMT-TR"
 			(pin_names
@@ -2813,17 +2818,6 @@
 		)
 		(uuid "4cebac7b-1c04-4211-b0c1-560bf8ebc07f")
 	)
-	(text "TODO:\nSpeaker and speaker driver - DONE\nChoose NMOS\nDisplay and backlight must run at 3p3 - DONE"
-		(exclude_from_sim no)
-		(at 179.324 171.958 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f8d2e90-934e-4d6d-a326-4bc3e864112e")
-	)
 	(text "Level translation for display"
 		(exclude_from_sim no)
 		(at 127.762 139.446 0)
@@ -4375,7 +4369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 238.76 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4386,7 +4380,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fdv303n-d.pdf"
 			(at 233.68 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -4432,6 +4426,28 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 233.68 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "ONSEMI"
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FDV303N"
+			(at 233.68 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4905,7 +4921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 99.06 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4916,7 +4932,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fdv303n-d.pdf"
 			(at 93.98 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4962,6 +4978,28 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "ONSEMI"
+			(at 93.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FDV303N"
+			(at 93.98 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5023,7 +5061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 204.216 98.044 90)
 			(hide yes)
 			(show_name no)
@@ -5034,7 +5072,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 203.2 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5046,6 +5084,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 203.2 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 203.2 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0402JR-070RL"
 			(at 203.2 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6517,7 +6577,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 218.694 146.304 90)
 			(hide yes)
 			(show_name no)
@@ -6528,7 +6588,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 218.44 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6541,6 +6601,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 218.44 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 218.44 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402FR-071KL"
+			(at 218.44 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7333,7 +7415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 204.216 73.914 90)
 			(hide yes)
 			(show_name no)
@@ -7344,7 +7426,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 203.2 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7356,6 +7438,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 203.2 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 203.2 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0402JR-070RL"
 			(at 203.2 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7713,7 +7817,7 @@
 				)
 			)
 		)
-		(property "Value" "660"
+		(property "Value" "665"
 			(at 236.22 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7723,7 +7827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 236.474 128.524 90)
 			(hide yes)
 			(show_name no)
@@ -7734,7 +7838,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110174.pdf"
 			(at 236.22 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7747,6 +7851,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 236.22 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 236.22 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "560112110174"
+			(at 236.22 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7880,7 +8006,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 78.994 78.994 90)
 			(hide yes)
 			(show_name no)
@@ -7891,7 +8017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 78.74 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7904,6 +8030,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 78.74 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 78.74 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0402FR-071KL"
+			(at 78.74 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
