@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "a19f636f-b28d-4c43-b96a-b02383edd3eb")
 	(paper "A4")
+	(title_block
+		(title "High Level")
+		(date "2026-11-02")
+		(rev "A")
+	)
 	(lib_symbols)
 	(sheet
 		(at 52.705 63.5)
@@ -14,7 +19,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
 		)
 		(fill

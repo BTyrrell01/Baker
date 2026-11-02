@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "a946122d-e904-45db-9c41-9643b843108f")
 	(paper "A4")
+	(title_block
+		(title "Compute")
+		(date "2026-11-02")
+		(rev "A")
+	)
 	(lib_symbols)
 	(text "LPTIM2 CH1"
 		(exclude_from_sim no)
@@ -32,12 +37,6 @@
 		(uuid "0de08c75-5ea0-4950-a790-b74a3eaba488")
 	)
 	(junction
-		(at 191.77 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a4c9b10-eefe-4750-8c9c-c763c0f9fddd")
-	)
-	(junction
 		(at 76.2 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -49,12 +48,6 @@
 		(color 0 0 0 0)
 		(uuid "79bb70aa-077c-4e23-83ed-7e0e5a184e1a")
 	)
-	(junction
-		(at 194.31 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e692afac-6f05-4efa-9c22-3b4ce97d4c18")
-	)
 	(no_connect
 		(at 278.13 82.55)
 		(uuid "010cfe56-5fe7-47c7-acaa-857ae43faa92")
@@ -62,10 +55,6 @@
 	(no_connect
 		(at 278.13 74.93)
 		(uuid "38f9b8b9-e10c-4afc-9c3a-11ef46b59f16")
-	)
-	(no_connect
-		(at 104.14 67.31)
-		(uuid "3ccd5b65-506c-4fd6-9ff8-ae6237314ae3")
 	)
 	(no_connect
 		(at 209.55 93.98)
@@ -293,16 +282,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 30.48) (xy 97.79 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c496057-3fcf-4e9b-ba3d-c7df6f54c008")
-	)
-	(wire
-		(pts
 			(xy 167.64 96.52) (xy 193.04 96.52)
 		)
 		(stroke
@@ -343,23 +322,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 69.85) (xy 100.33 69.85)
+			(xy 125.73 67.31) (xy 100.33 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "309a4c55-8079-4c41-95d7-3e0c82dfc2c2")
-	)
-	(wire
-		(pts
-			(xy 104.14 67.31) (xy 125.73 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30ad855b-8417-44a6-9ce7-952e4def0b52")
 	)
 	(wire
 		(pts
@@ -543,7 +512,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 69.85) (xy 100.33 27.94)
+			(xy 100.33 67.31) (xy 100.33 27.94)
 		)
 		(stroke
 			(width 0)
@@ -623,16 +592,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 44.45) (xy 191.77 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d828435-afc4-4634-ae92-3888d1f2e06d")
-	)
-	(wire
-		(pts
 			(xy 200.66 55.88) (xy 227.33 55.88)
 		)
 		(stroke
@@ -663,16 +622,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 46.99) (xy 194.31 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7511ec0c-1484-484a-9c72-62a40ee280d2")
-	)
-	(wire
-		(pts
 			(xy 125.73 86.36) (xy 83.82 86.36)
 		)
 		(stroke
@@ -680,6 +629,16 @@
 			(type default)
 		)
 		(uuid "78091c96-f3a4-40cc-9a94-2ea9021f2fe1")
+	)
+	(wire
+		(pts
+			(xy 53.34 30.48) (xy 69.85 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783acd72-76d9-4ef8-910d-1c18eb2cc91f")
 	)
 	(wire
 		(pts
@@ -913,16 +872,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 30.48) (xy 97.79 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b986cf8d-5201-45f7-813c-e1f46e78de0f")
-	)
-	(wire
-		(pts
 			(xy 167.64 82.55) (xy 193.04 82.55)
 		)
 		(stroke
@@ -993,16 +942,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 72.39) (xy 125.73 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d024f569-948e-4645-aae0-2bca2e9b8326")
-	)
-	(wire
-		(pts
 			(xy 260.35 74.93) (xy 278.13 74.93)
 		)
 		(stroke
@@ -1010,6 +949,16 @@
 			(type default)
 		)
 		(uuid "d1d558d6-75ee-4910-8a1e-20d76445f8aa")
+	)
+	(wire
+		(pts
+			(xy 104.14 121.92) (xy 125.73 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36229ef-b902-4f0a-b83a-195975e3a020")
 	)
 	(wire
 		(pts
@@ -1281,16 +1230,6 @@
 		)
 		(uuid "2579ea04-304d-4a8c-bb8a-886e07b0bfd0")
 	)
-	(label "SPI1_MISO_NC"
-		(at 106.68 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "28f0a2d6-1482-4a3a-ac83-c499517d6eda")
-	)
 	(label "SW1_DEBOUNCE"
 		(at 172.72 101.6 0)
 		(effects
@@ -1440,6 +1379,16 @@
 			(justify left bottom)
 		)
 		(uuid "88f6fb7e-6708-448b-8f4f-ba260b58c6ed")
+	)
+	(label "DISPLAY_CS"
+		(at 106.68 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b843335-42cc-49bb-ba61-8c9cfa20516a")
 	)
 	(label "BT_UART_CTS_STM32_RTS"
 		(at 57.15 147.32 0)
@@ -1861,54 +1810,6 @@
 		)
 		(uuid "fa8420b5-8ad6-4e68-8c9f-23e42a5c7833")
 	)
-	(global_label "I2C3_SCL"
-		(shape input)
-		(at 182.88 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1c3299c9-057d-4871-9173-465a81d0ed43")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.1258 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "I2C3_SDA"
-		(shape input)
-		(at 182.88 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "562274a9-966d-4550-aff1-0eeade53c8b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.0653 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(sheet
 		(at 125.73 61.595)
 		(size 41.91 64.135)
@@ -1918,7 +1819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
 		)
 		(fill
@@ -2267,26 +2168,6 @@
 				(justify right)
 			)
 		)
-		(pin "SPI1_CS1" input
-			(at 125.73 72.39 180)
-			(uuid "c09b4534-9341-4ab3-b9c1-4a3a28533f1d")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI1_MISO" input
-			(at 125.73 67.31 180)
-			(uuid "62d7213d-0522-4b0e-bcb0-1f723d105566")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
 		(pin "SPI1_MOSI" input
 			(at 125.73 64.77 180)
 			(uuid "7c000ecf-8a84-4423-bea0-a8039d3ab77c")
@@ -2298,7 +2179,7 @@
 			)
 		)
 		(pin "SPI1_SCK" input
-			(at 125.73 69.85 180)
+			(at 125.73 67.31 180)
 			(uuid "6b60e536-09dc-4795-96f5-38122320fcdf")
 			(effects
 				(font
@@ -2374,7 +2255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
 		)
 		(fill
@@ -2510,7 +2391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
 		)
 		(fill
@@ -2606,7 +2487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
 		)
 		(fill
@@ -2722,7 +2603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
 		)
 		(fill
@@ -2838,7 +2719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
 		)
 		(fill
@@ -2954,7 +2835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
 		)
 		(fill
@@ -3060,7 +2941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
 		)
 		(fill

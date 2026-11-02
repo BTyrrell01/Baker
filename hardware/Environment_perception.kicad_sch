@@ -51,7 +51,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "BMI270"
+			(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -63,7 +63,29 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "IMU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Name" "Bosch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BMI270"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -111,7 +133,7 @@
 					(start 0 0)
 					(end 25.4 -25.4)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
