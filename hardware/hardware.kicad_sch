@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 37.465 63.5)
+		(at 52.705 63.5)
 		(size 69.85 69.215)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "119d5b68-b95b-4b86-8725-4c9f1d39b386")
 		(property "Sheetname" "Power"
-			(at 37.465 62.7884 0)
+			(at 52.705 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 37.465 133.2996 0)
+			(at 52.705 133.2996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 160.02 62.23)
+		(at 175.26 62.23)
 		(size 68.58 69.85)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "66e2f96f-c2f9-49fe-949d-95863aff4e55")
 		(property "Sheetname" "Compute"
-			(at 160.02 61.4676 0)
+			(at 175.26 61.4676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 160.02 132.7154 0)
+			(at 175.26 132.7154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

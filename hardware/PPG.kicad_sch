@@ -2995,7 +2995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 153.3652 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3006,7 +3006,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 152.4 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3018,6 +3018,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 152.4 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 152.4 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM155R71C104KA88J"
 			(at 152.4 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3155,7 +3177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.0652 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3166,7 +3188,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 165.1 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3178,6 +3200,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 165.1 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 165.1 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM155R71C104KA88J"
 			(at 165.1 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3237,7 +3281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 178.7652 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3248,7 +3292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 177.8 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3260,6 +3304,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 177.8 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM155R71C104KA88J"
 			(at 177.8 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3475,7 +3541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 140.6652 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3486,7 +3552,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 139.7 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3498,6 +3564,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 139.7 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 139.7 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM155R71C104KA88J"
 			(at 139.7 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3689,7 +3777,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "763dcadc-113b-4881-89b8-13528e40b252")
 		(property "Reference" "U5"
 			(at 246.38 109.22 0)
@@ -3701,8 +3788,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 231.14 111.76 0)
+		(property "Value" "AS7058"
+			(at 234.95 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3711,18 +3798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 231.14 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Package_CSP:WLCSP-36_2.82x2.67mm_Layout6x6_P0.4mm"
 			(at 231.14 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3733,7 +3809,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/264ac284b30311c3/original/AS7058-IC-for-PPG-ECG-and-body-impedance-measurement.pdf"
+			(at 231.14 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optical AFE"
+			(at 231.14 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "OSRAM"
+			(at 231.14 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AS7058"
 			(at 231.14 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3913,7 +4022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 115.2652 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3924,7 +4033,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM21BR71A106KE22-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3936,6 +4045,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 114.3 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 114.3 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM21BR71A106KE22L"
 			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4229,7 +4360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127.9652 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4240,7 +4371,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 127 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4252,6 +4383,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 127 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM155R71C104KA88J"
 			(at 127 100.33 0)
 			(hide yes)
 			(show_name no)

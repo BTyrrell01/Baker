@@ -43,6 +43,12 @@
 		(uuid "0de08c75-5ea0-4950-a790-b74a3eaba488")
 	)
 	(junction
+		(at 191.77 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a4c9b10-eefe-4750-8c9c-c763c0f9fddd")
+	)
+	(junction
 		(at 76.2 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -53,6 +59,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79bb70aa-077c-4e23-83ed-7e0e5a184e1a")
+	)
+	(junction
+		(at 194.31 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e692afac-6f05-4efa-9c22-3b4ce97d4c18")
 	)
 	(no_connect
 		(at 278.13 82.55)
@@ -622,6 +634,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 44.45) (xy 191.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d828435-afc4-4634-ae92-3888d1f2e06d")
+	)
+	(wire
+		(pts
 			(xy 200.66 55.88) (xy 227.33 55.88)
 		)
 		(stroke
@@ -649,6 +671,16 @@
 			(type default)
 		)
 		(uuid "74d7bde3-58a5-49dc-bf49-3bd216b6f132")
+	)
+	(wire
+		(pts
+			(xy 182.88 46.99) (xy 194.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7511ec0c-1484-484a-9c72-62a40ee280d2")
 	)
 	(wire
 		(pts
@@ -1839,6 +1871,54 @@
 			(justify left bottom)
 		)
 		(uuid "fa8420b5-8ad6-4e68-8c9f-23e42a5c7833")
+	)
+	(global_label "I2C3_SCL"
+		(shape input)
+		(at 182.88 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c3299c9-057d-4871-9173-465a81d0ed43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.1258 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C3_SDA"
+		(shape input)
+		(at 182.88 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "562274a9-966d-4550-aff1-0eeade53c8b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.0653 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(sheet
 		(at 125.73 61.595)

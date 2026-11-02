@@ -2876,6 +2876,26 @@
 		)
 		(uuid "2bdfba8e-e65c-44ed-9872-4de259d2444b")
 	)
+	(text "PPG/Charge connect interface"
+		(exclude_from_sim no)
+		(at 68.58 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45e1c8c7-900c-4a0f-bc1b-b2f2d25fcdaa")
+	)
+	(text "Battery module interface"
+		(exclude_from_sim no)
+		(at 68.834 127.254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "659e0d65-5591-4ed0-8819-14664f35339b")
+	)
 	(text "VSET\n10k -> 1.8V output"
 		(exclude_from_sim no)
 		(at 185.166 151.384 0)
@@ -2909,12 +2929,6 @@
 		(uuid "15ab1b0e-7d24-49ea-8f28-1b446351986c")
 	)
 	(junction
-		(at 156.21 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b03a447-e3d3-4c31-8980-f1d270e7ec51")
-	)
-	(junction
 		(at 229.87 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2931,6 +2945,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "572efc26-0545-4168-b3b5-e146375a43d5")
+	)
+	(junction
+		(at 156.21 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6623b3b4-210b-46da-a262-3fa0b27bc725")
 	)
 	(junction
 		(at 177.8 43.18)
@@ -2998,6 +3018,10 @@
 		(color 0 0 0 0)
 		(uuid "f870eaa4-e367-44b1-be48-5d1f2293a70a")
 	)
+	(no_connect
+		(at 87.63 148.59)
+		(uuid "24e81d5f-a8e1-4967-83d7-29ff71113f83")
+	)
 	(wire
 		(pts
 			(xy 92.71 41.91) (xy 74.93 41.91)
@@ -3040,7 +3064,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 123.19) (xy 55.88 118.11)
+			(xy 55.88 143.51) (xy 55.88 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3160,7 +3184,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 123.19) (xy 81.28 118.11)
+			(xy 81.28 143.51) (xy 81.28 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3270,6 +3294,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 148.59) (xy 62.23 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c6b756-686f-4a1b-9bc3-c38a866b119a")
+	)
+	(wire
+		(pts
 			(xy 44.45 52.07) (xy 62.23 52.07)
 		)
 		(stroke
@@ -3310,7 +3344,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 134.62) (xy 81.28 130.81)
+			(xy 81.28 154.94) (xy 81.28 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3410,7 +3444,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 134.62) (xy 55.88 130.81)
+			(xy 55.88 154.94) (xy 55.88 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3420,7 +3454,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 123.19) (xy 81.28 123.19)
+			(xy 74.93 143.51) (xy 81.28 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3520,6 +3554,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 146.05) (xy 62.23 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ecfff61-cb61-4a7b-8390-37eba26e1f6d")
+	)
+	(wire
+		(pts
 			(xy 177.8 48.26) (xy 193.04 48.26)
 		)
 		(stroke
@@ -3570,7 +3614,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 135.89) (xy 156.21 139.7)
+			(xy 156.21 130.81) (xy 156.21 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3580,7 +3624,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 130.81) (xy 62.23 130.81)
+			(xy 55.88 151.13) (xy 62.23 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3670,7 +3714,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 123.19) (xy 55.88 123.19)
+			(xy 62.23 143.51) (xy 55.88 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3800,6 +3844,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 146.05) (xy 87.63 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc4b63a-c526-499b-8c87-ecb978428e35")
+	)
+	(wire
+		(pts
 			(xy 92.71 46.99) (xy 74.93 46.99)
 		)
 		(stroke
@@ -3817,6 +3871,16 @@
 			(type default)
 		)
 		(uuid "bedcc4a1-041a-40ab-9f3f-008bcadb7f8e")
+	)
+	(wire
+		(pts
+			(xy 74.93 148.59) (xy 87.63 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0014994-ce60-4310-9108-c1117d936e7a")
 	)
 	(wire
 		(pts
@@ -3910,7 +3974,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 128.27) (xy 156.21 118.11)
+			(xy 156.21 123.19) (xy 156.21 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3950,7 +4014,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 130.81) (xy 81.28 130.81)
+			(xy 74.93 151.13) (xy 81.28 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4028,6 +4092,16 @@
 		)
 		(uuid "0970bd11-7234-4ad3-b48a-777c731214ec")
 	)
+	(label "I2C3_SCL"
+		(at 52.07 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10e411d1-0438-47a9-b883-72a870546311")
+	)
 	(label "LED8"
 		(at 88.9 57.15 180)
 		(effects
@@ -4037,6 +4111,16 @@
 			(justify right bottom)
 		)
 		(uuid "176b64ad-0c78-4bc6-b877-ff33a8151b70")
+	)
+	(label "ALRT"
+		(at 78.74 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2486a323-c889-4d0d-8df3-d24fdbf4ab78")
 	)
 	(label "LED6"
 		(at 88.9 52.07 180)
@@ -4068,6 +4152,16 @@
 		)
 		(uuid "37805cd3-352d-4734-b1b3-834b549ae5c8")
 	)
+	(label "J5_NC"
+		(at 78.74 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "510102bf-d98d-40c3-89c5-9dc383cccf24")
+	)
 	(label "PD3"
 		(at 48.26 46.99 0)
 		(effects
@@ -4097,6 +4191,16 @@
 			(justify right bottom)
 		)
 		(uuid "8d488e36-e514-4fae-9e14-a037242a175b")
+	)
+	(label "I2C3_SDA"
+		(at 52.07 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b53c979-dd54-481d-8716-293937b9c4b6")
 	)
 	(label "PD5"
 		(at 48.26 52.07 0)
@@ -4418,6 +4522,30 @@
 			)
 		)
 	)
+	(global_label "I2C3_SCL"
+		(shape input)
+		(at 49.53 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "936e8b4a-96a9-4653-861c-48cadf80db92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.7758 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PD7"
 		(shape input)
 		(at 44.45 57.15 180)
@@ -4562,6 +4690,30 @@
 			)
 		)
 	)
+	(global_label "I2C3_SDA"
+		(shape input)
+		(at 49.53 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8669177-9886-4bfe-98f7-c7b191fce779")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.7153 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PD5"
 		(shape input)
 		(at 44.45 52.07 180)
@@ -4666,7 +4818,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 134.62 0)
+		(at 81.28 154.94 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4678,7 +4830,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a14d188-5503-4ddf-92ff-b069b9fbf0c2")
 		(property "Reference" "#PWR0138"
-			(at 81.28 140.97 0)
+			(at 81.28 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4689,7 +4841,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 139.7 0)
+			(at 81.28 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4699,7 +4851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 134.62 0)
+			(at 81.28 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4710,7 +4862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 134.62 0)
+			(at 81.28 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4721,7 +4873,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 134.62 0)
+			(at 81.28 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4876,6 +5028,28 @@
 			)
 		)
 		(property "Description" "Buck-Boost Converter, 1.8-5.5V Input Voltage, 0.4A Switch Current, Adjustable 1.8-5V Output Voltage, WSON-10"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TI"
+			(at 203.2 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS63900"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5086,7 +5260,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 67.31 125.73 0)
+		(at 67.31 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5097,7 +5271,7 @@
 		(fields_autoplaced yes)
 		(uuid "21294f35-fea4-4ff4-ad51-59493e4a093f")
 		(property "Reference" "J5"
-			(at 68.58 116.84 0)
+			(at 68.58 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5107,7 +5281,7 @@
 			)
 		)
 		(property "Value" "Conn_02x04_Odd_Even"
-			(at 68.58 119.38 0)
+			(at 68.58 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5117,7 +5291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 125.73 0)
+			(at 67.31 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5128,7 +5302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 125.73 0)
+			(at 67.31 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5139,7 +5313,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 67.31 125.73 0)
+			(at 67.31 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5294,7 +5468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 157.1752 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5305,7 +5479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM21BR71A106KE22-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 156.21 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5317,6 +5491,28 @@
 			)
 		)
 		(property "Description" "GRM155R60J106ME15D"
+			(at 156.21 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 156.21 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM21BR71A106KE22L"
 			(at 156.21 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5398,7 +5594,29 @@
 				)
 			)
 		)
-		(property "Description" "AC0402FR-0736K5L"
+		(property "Description" "Resistor, US"
+			(at 241.3 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 241.3 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0402FR-0736K5L"
 			(at 241.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5426,7 +5644,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 139.7 0)
+		(at 156.21 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5437,7 +5655,7 @@
 		(fields_autoplaced yes)
 		(uuid "2af92aed-8686-4b18-b50d-06f045df5850")
 		(property "Reference" "#PWR0127"
-			(at 156.21 146.05 0)
+			(at 156.21 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5448,7 +5666,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 144.78 0)
+			(at 156.21 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5458,7 +5676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 139.7 0)
+			(at 156.21 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5469,7 +5687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 139.7 0)
+			(at 156.21 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5480,7 +5698,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 139.7 0)
+			(at 156.21 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5504,7 +5722,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 156.21 132.08 0)
+		(at 156.21 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5515,7 +5733,7 @@
 		(fields_autoplaced yes)
 		(uuid "515585d8-f67d-460d-b96a-4034d5ba83cc")
 		(property "Reference" "C54"
-			(at 160.02 130.8099 0)
+			(at 160.02 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5526,7 +5744,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 160.02 133.3499 0)
+			(at 160.02 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5537,7 +5755,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 157.1752 135.89 0)
+			(at 157.1752 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5548,7 +5766,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 156.21 132.08 0)
+			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5558,8 +5776,30 @@
 				)
 			)
 		)
-		(property "Description" "GRM155R60J475ME47D"
-			(at 156.21 132.08 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 156.21 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM155R60J475ME47D"
+			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6189,8 +6429,30 @@
 				)
 			)
 		)
-		(property "Description" "DFE201610E-1R0M=P2"
+		(property "Description" ""
 			(at 222.25 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 222.25 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DFE201610E-1R0M=P2"
+			(at 222.25 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6270,6 +6532,28 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x15, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 67.31 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DF23C-30DS-0.5V(51)"
 			(at 67.31 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6914,6 +7198,28 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Taiyo Yuden"
+			(at 252.73 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MSASL219LB5226MTNA01"
+			(at 252.73 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a90b3420-cae6-4d96-a02d-732d962e9ac6")
 		)
@@ -6985,7 +7291,29 @@
 				)
 			)
 		)
-		(property "Description" "7443844020022"
+		(property "Description" ""
+			(at 184.15 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 184.15 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "7443844020022"
 			(at 184.15 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7077,6 +7405,28 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "TI"
+			(at 204.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS628438DRL"
+			(at 204.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "3abeedd6-8057-4a0c-b1bd-57dfe0f97383")
 		)
@@ -7106,7 +7456,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 55.88 118.11 0)
+		(at 55.88 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7117,7 +7467,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfdf8a25-6428-418b-9d15-7d6bd8fab770")
 		(property "Reference" "#PWR0139"
-			(at 55.88 121.92 0)
+			(at 55.88 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7128,7 +7478,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 55.88 113.03 0)
+			(at 55.88 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7138,7 +7488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 118.11 0)
+			(at 55.88 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7149,7 +7499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 118.11 0)
+			(at 55.88 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7160,7 +7510,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 55.88 118.11 0)
+			(at 55.88 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7184,7 +7534,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 134.62 0)
+		(at 55.88 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7195,7 +7545,7 @@
 		(fields_autoplaced yes)
 		(uuid "f41c9ab4-16e1-45d1-bfcb-c6108d787ac1")
 		(property "Reference" "#PWR0137"
-			(at 55.88 140.97 0)
+			(at 55.88 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7206,7 +7556,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 139.7 0)
+			(at 55.88 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7216,7 +7566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 134.62 0)
+			(at 55.88 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7227,7 +7577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 134.62 0)
+			(at 55.88 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7238,7 +7588,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 134.62 0)
+			(at 55.88 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7294,7 +7644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 253.6952 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7305,7 +7655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM21BR71A106KE22-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 252.73 127 0)
 			(hide yes)
 			(show_name no)
@@ -7317,6 +7667,28 @@
 			)
 		)
 		(property "Description" "GRM155R60J106ME15D"
+			(at 252.73 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 252.73 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM21BR71A106KE22L"
 			(at 252.73 127 0)
 			(hide yes)
 			(show_name no)
@@ -7344,7 +7716,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 81.28 118.11 0)
+		(at 81.28 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7355,7 +7727,7 @@
 		(fields_autoplaced yes)
 		(uuid "f89b4ea0-e600-40c3-9afc-0ad670dc9eea")
 		(property "Reference" "#PWR0140"
-			(at 81.28 121.92 0)
+			(at 81.28 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7366,7 +7738,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 81.28 113.03 0)
+			(at 81.28 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7376,7 +7748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 118.11 0)
+			(at 81.28 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7387,7 +7759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 118.11 0)
+			(at 81.28 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7398,7 +7770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 81.28 118.11 0)
+			(at 81.28 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
